@@ -1,0 +1,77 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .title {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    text-align: center;
+  }
+  
+  .input {
+    align-content: center;
+    padding: 12px;
+    border: 2px solid #007bff;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+  }
+  
+  .button {
+    padding: 12px 24px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .gif-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .gif-item {
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gif-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .gif-title {
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
