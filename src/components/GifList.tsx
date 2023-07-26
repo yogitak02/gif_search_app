@@ -1,7 +1,5 @@
-// GifList.tsx
 import React from 'react';
 import '../styles.css';
-
 interface Gif {
   id: string;
   url: string;
@@ -18,7 +16,7 @@ const GifList: React.FC<GifListProps> = ({ gifs }) => {
       {gifs.map((gif) => (
         <div key={gif.id} className="gif-item">
           <img className="gif-img" src={gif.url} alt={gif.title} />
-          {/* <div className="gif-title">{gif.title}</div> */}
+         
         </div>
       ))}
     </div>

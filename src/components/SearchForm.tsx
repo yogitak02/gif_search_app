@@ -1,4 +1,3 @@
-// SearchForm.tsx
 import React, { useState } from "react";
 import "../styles.css";
 
@@ -37,3 +36,4 @@ const SearchForm: React.FC<SearchFormProps> = ({ onSearch }) => {
 };
 
 export default SearchForm;
+
